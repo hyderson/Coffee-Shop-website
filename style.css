@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgba(19, 15, 14, 0.8); 
+    height: 80px;
+    width: 100%; 
+    position: fixed;
+}
+header ul{
+    position: absolute;
+    right: 5vw;
+    top:0;
+    line-height: 80px;
+
+}
+header li{
+    display: inline;
+    margin-right: 4vw;
+    
+}
+h1{
+    color: transparent;
+    position: absolute;
+    left: 50px;
+    top: 0;
+    line-height: 80px;
+    background-image: url(images/咖啡廳logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50%;
+    
+}
+header a{
+    color: aliceblue;
+    text-decoration: none;
+
+}
+header a:hover{
+    text-decoration: underline;
+}
+.news{
+    background-color: rgb(19, 19, 19,0.8);
+    color: white;
+    height: 85vh;
+    background-image:url(images/咖啡廳背景.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.news h2{
+    font-size: 60px;
+}
+.news p{
+    color: antiquewhite;
+    font-size: 18px;
+    margin: 25px;
+}.news a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #acacac;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.solgan{
+    background-color: #485652;
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2;
+}
+.shop{
+    display: flex;
+}
+.shop img{
+    width: 50%;
+}
+.info{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info h2{
+    font-size: 50px;
+}
+.info p{
+    text-align: center;
+    line-height: 2em;
+}
+footer{
+    background-color:black;
+    color: rgb(135, 135, 135);
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.product{
+    display: flex;
+    background-color: #c6c6c6;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 150px;
+}
+.product img{
+    height: 250px;
+    border-radius: 20px;
+}
+.product div{
+    text-align: center;
+    line-height: 2.5em; 
+}
+.product h3{
+    font-size: 25px;
+}
+/* 響應式設計語法 
+@media screen and (max-width: 760px){
+    header ul{
+        display: none;
+    }
+}*/
